@@ -8,9 +8,12 @@ The process I used to create the birds for the next generation is at follows:
 5. Mutate every bird in the new generation by a tiny bit.
 
 To run this game you need the SDL librarie for fonts and images.
-To install them type in the command line : 
- $sudo apt-get install libsdl2-ttf-dev
- $sudo apt-get install libsdl-image1.2-dev
+To install them type in the command line :
+
+ sudo apt-get install libsdl2-ttf-dev
+ 
+ sudo apt-get install libsdl-image1.2-dev
+
 I added a make file for this project.
 To compile the game type: make all  
 To run the game type: ./flappyBird
